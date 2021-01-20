@@ -1,0 +1,19 @@
+{
+  "loadBalancingConfig": [
+    { "round_robin": {} }
+  ],
+  "methodConfig": [
+    {
+      "name": [
+        { "service": "enfonica.voice.v1beta1.Recordings" }
+      ],
+      "timeout": "10s"
+    },
+    {
+      "name": [
+        { "service": "enfonica.voice.v1beta1.Streams" }
+      ],
+      "timeout": "10s"
+    }
+  ]
+}
