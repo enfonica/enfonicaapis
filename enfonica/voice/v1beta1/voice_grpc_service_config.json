@@ -5,6 +5,12 @@
   "methodConfig": [
     {
       "name": [
+        { "service": "enfonica.voice.v1beta1.Calls" }
+      ],
+      "timeout": "10s"
+    },
+    {
+      "name": [
         { "service": "enfonica.voice.v1beta1.Recordings" }
       ],
       "timeout": "10s"
