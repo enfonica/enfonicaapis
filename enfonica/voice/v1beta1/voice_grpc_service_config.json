@@ -17,6 +17,12 @@
     },
     {
       "name": [
+        { "service": "enfonica.voice.v1beta1.Transcriptions" }
+      ],
+      "timeout": "10s"
+    },
+    {
+      "name": [
         { "service": "enfonica.voice.v1beta1.Streams" }
       ],
       "timeout": "10s"
