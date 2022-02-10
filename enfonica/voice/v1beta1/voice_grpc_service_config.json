@@ -17,13 +17,31 @@
     },
     {
       "name": [
-        { "service": "enfonica.voice.v1beta1.Transcriptions" }
+        { "service": "enfonica.voice.v1beta1.Streams" }
+      ],
+      "timeout": "600s"
+    },
+    {
+      "name": [
+        { "service": "enfonica.voice.v1beta1.Aliases" }
       ],
       "timeout": "10s"
     },
     {
       "name": [
-        { "service": "enfonica.voice.v1beta1.Streams" }
+        { "service": "enfonica.voice.v1beta1.SipDomains" }
+      ],
+      "timeout": "10s"
+    },
+    {
+      "name": [
+        { "service": "enfonica.voice.v1beta1.SipInfoService" }
+      ],
+      "timeout": "10s"
+    },
+    {
+      "name": [
+        { "service": "enfonica.voice.v1beta1.Transcriptions" }
       ],
       "timeout": "10s"
     }
