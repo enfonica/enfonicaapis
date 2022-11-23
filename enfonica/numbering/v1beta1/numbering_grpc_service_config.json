@@ -14,6 +14,12 @@
         { "service": "enfonica.numbering.v1beta1.PhoneNumbers" }
       ],
       "timeout": "10s"
-    }
+    },
+    {
+      "name": [
+        { "service": "enfonica.numbering.v1beta1.RegulatoryListings" }
+      ],
+      "timeout": "10s"
+    }    
   ]
 }
